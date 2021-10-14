@@ -101,4 +101,5 @@ def end(result, result_grid):
     pg.quit()
 
 
-main(empty_board)
+if __name__ == '__main__':
+    main(empty_board)

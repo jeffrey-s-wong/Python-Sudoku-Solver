@@ -119,7 +119,7 @@ class Grid:
         self.x_start = starting_coordinates[0]
         self.y_start = starting_coordinates[1]
         self.board = board
-        self.cell_grid = [[[['0' for _ in range(3)] for _ in range(3)] for _ in range(3)] for _ in range(3)]
+        self.cell_grid = [[[['0' for i in range(3)] for i in range(3)] for i in range(3)] for i in range(3)]
         self.build_grid(board)
 
     def build_grid(self, board):
