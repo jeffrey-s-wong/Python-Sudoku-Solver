@@ -1,4 +1,3 @@
-from pandas import *
 import pygame as pg
 import grid
 
